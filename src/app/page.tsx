@@ -3,8 +3,8 @@ import { HStack, Text } from "native-base";
 
 export default function Home() {
   return (
-    <main >
-      <HStack>
+    <main>
+      <HStack margin={50}>
         <Text>
           Test Content
           <div style={{ background: 'red' }}>
